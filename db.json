@@ -1,0 +1,186 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "user@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "db82",
+      "email": "user@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "e45f",
+      "email": "user@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "cd7e",
+      "email": "user@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "a232",
+      "email": "user@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "db4d",
+      "email": "user11@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "7c4f",
+      "email": "user11@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "885b",
+      "email": "user11@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "57ae",
+      "email": "user11@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "9aaf",
+      "email": "user11@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "dc44",
+      "email": "user@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "6e8f",
+      "email": "user1@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "32a8",
+      "email": "user1@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "e035",
+      "email": "user1@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "a9db",
+      "email": "user@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "04a7",
+      "email": "user1@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "cfd6",
+      "email": "aaaa@a.com",
+      "password": "aaaa"
+    },
+    {
+      "id": "4bb6",
+      "email": "user@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "6b45",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "1a8a",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "ffdd",
+      "email": "teste1@g.com",
+      "password": "aaaa"
+    },
+    {
+      "id": "1649",
+      "email": "teste1@g.com",
+      "password": "aaaa"
+    },
+    {
+      "id": "7d3d",
+      "email": "teste1@g.com",
+      "password": "aaaa"
+    },
+    {
+      "id": "e701",
+      "email": "user@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "7e37",
+      "email": "user@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "1d7c",
+      "email": "user2@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "ce3c",
+      "email": "user22@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "e14f",
+      "email": "sser@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "879b",
+      "email": "usewwr@example.com",
+      "password": "123456xnnkxsaljknxsca"
+    },
+    {
+      "id": "e277",
+      "email": "miguel@miguel.com",
+      "password": "password"
+    },
+    {
+      "id": "b701",
+      "companyName": "wdd",
+      "companyNIPC": "dxqdq",
+      "companyPhone": "cdqsdqcs",
+      "companyPostalCode": "cdqscdq",
+      "companyDistrict": "Salacicie",
+      "companyCity": "Lacanelade",
+      "companyAddress": "dqss dqlkndl ",
+      "userName": "teste1@gmail.com",
+      "userEmail": "teste1@gmail.com",
+      "userPassword": "Aaaaa---1234a",
+      "userRepeatPassword": "Aaaaa---1234a",
+      "termsAccepted": true,
+      "marketingConsent": true
+    },
+    {
+      "id": "ff4b",
+      "companyName": "Distinta Plataforma",
+      "companyNIPC": "Teste1",
+      "companyPhone": "123456",
+      "companyPostalCode": "1234567",
+      "companyDistrict": "Guarda",
+      "companyCity": "Lacanelade",
+      "companyAddress": "isygfiygf gfd",
+      "userName": "Miguelqdw",
+      "userEmail": "dqdqwe@gmail.com",
+      "userPassword": "Password1-",
+      "userRepeatPassword": "Password1-",
+      "termsAccepted": true,
+      "marketingConsent": true
+    }
+  ]
+}
