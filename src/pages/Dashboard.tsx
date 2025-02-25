@@ -14,6 +14,7 @@ import GrainIcon from '@mui/icons-material/Grain';
 import InboxIcon from '@mui/icons-material/Inbox';
 import MailIcon from '@mui/icons-material/Mail';
 import CustomButton from '../components/Button';
+import CarForm from '../components/CarForm';
 
 
 const Dashboard = () => {
@@ -135,7 +136,12 @@ const drawerWidth = 240;
     </Box>
     </Box>
   </Box>
-
+  <Box
+      component="main"
+      sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3, marginLeft: '240px' }}
+    >
+      <CarForm />
+  </Box>
 
     </>
   );
