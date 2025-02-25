@@ -181,6 +181,22 @@
       "userRepeatPassword": "Password1-",
       "termsAccepted": true,
       "marketingConsent": true
+    },
+    {
+      "id": "28c5",
+      "companyName": "Teste",
+      "companyNIPC": "Teste",
+      "companyPhone": "1234567",
+      "companyPostalCode": "123456789",
+      "companyDistrict": "Évora",
+      "companyCity": "Lacanelade",
+      "companyAddress": "jsg iwyg wiyqg ",
+      "userName": "Samuel",
+      "userEmail": "sam@sam.pt",
+      "userPassword": "SamSam1-",
+      "userRepeatPassword": "SamSam1-",
+      "termsAccepted": true,
+      "marketingConsent": true
     }
   ]
 }

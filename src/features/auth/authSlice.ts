@@ -39,7 +39,6 @@ export const register = createAsyncThunk(
       const response = await axios.post(API_URL, userData);
       // Returning a fake token and user info after registration
       return { token: "fake-jwt-token", user: response.data };
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
       return rejectWithValue(
         error.response?.data?.message || error.message || "Registration failed"
@@ -64,7 +63,6 @@ export const login = createAsyncThunk(
       } else {
         return rejectWithValue("Invalid credentials");
       }
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
       return rejectWithValue(
         error.response?.data?.message || error.message || "Login failed"

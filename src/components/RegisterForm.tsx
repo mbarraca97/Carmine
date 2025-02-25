@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useForm } from 'react-hook-form';
 import { useDispatch, useSelector } from 'react-redux';
 import { register as registerUser } from '../features/auth/authSlice';
@@ -9,6 +8,7 @@ import CustomButton from './Button';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
 import { useState, useEffect } from 'react';
+import { AuthState } from '../types/common';
 
 interface FormData {
   companyName: string;
@@ -28,7 +28,7 @@ interface FormData {
 
 const RegisterForm = () => {
   const dispatch = useDispatch<AppDispatch>();
-  const error = useSelector((state: any) => state.auth.error);
+  const error = useSelector((state: AuthState) => state.auth.error);
   const [passwordRequirements, setPasswordRequirements] = useState({
     uppercase: false,
     lowercase: false,
