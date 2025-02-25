@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { useAuth } from '../hooks/useAuth';
 import { Box, Breadcrumbs, CssBaseline, Divider, Drawer, Link, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Stack, Toolbar, Typography } from '@mui/material';
 import { Title } from '../components/Title';
-import { TitleColors, TitleSizes } from '../types/styles';
+import { ButtonVariantEnum, TitleColors, TitleSizes } from '../types/styles';
 import { Label, LabelColors, LabelSizes } from '../components/Label';
 import { AuthState } from '../types/common';
 import ResponsiveAppBar from '../components/ResponsiveAppBar';
@@ -13,6 +13,7 @@ import WhatshotIcon from '@mui/icons-material/Whatshot';
 import GrainIcon from '@mui/icons-material/Grain';
 import InboxIcon from '@mui/icons-material/Inbox';
 import MailIcon from '@mui/icons-material/Mail';
+import CustomButton from '../components/Button';
 
 
 const Dashboard = () => {
@@ -130,7 +131,7 @@ const drawerWidth = 240;
       
 
       
-      <button onClick={signOut}>Logout</button>
+      <CustomButton onClick={signOut} label="Logout" variant={ButtonVariantEnum.minimal}/>
     </Box>
     </Box>
   </Box>

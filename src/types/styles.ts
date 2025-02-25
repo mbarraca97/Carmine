@@ -11,7 +11,7 @@ export enum TitleColors {
   WHITE = "#ffffff",
 }
 
-export const enum IconPlacementEnum {
+export enum IconPlacementEnum {
   LEFT = "left",
   RIGHT = "right",
 }
