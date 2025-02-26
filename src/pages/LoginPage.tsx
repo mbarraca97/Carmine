@@ -32,7 +32,7 @@ function LoginPage(): JSX.Element {
 
   // Submit handler
   const onSubmit = (data: { email: string; password: string }) => {
-    dispatch(login(data));  // Dispatch login with proper type
+    dispatch(login(data));  
   };
 
   const drawerWidth = 600;

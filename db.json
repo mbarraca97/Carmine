@@ -197,6 +197,22 @@
       "userRepeatPassword": "SamSam1-",
       "termsAccepted": true,
       "marketingConsent": true
+    },
+    {
+      "id": "54d8",
+      "companyName": "Ana",
+      "companyNIPC": "Ana",
+      "companyPhone": "123456",
+      "companyPostalCode": "234567888",
+      "companyDistrict": "Évora",
+      "companyCity": "Lacanelade",
+      "companyAddress": "ga ag auha ",
+      "userName": "Ana",
+      "userEmail": "ana@ana.pt",
+      "userPassword": "AnaAna1-",
+      "userRepeatPassword": "AnaAna1-",
+      "termsAccepted": true,
+      "marketingConsent": true
     }
   ]
 }

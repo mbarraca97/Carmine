@@ -26,18 +26,7 @@ export const register = createAsyncThunk(
   "auth/register",
   async (userData: any, { rejectWithValue }) => {
     try {
-      console.log("Data", userData);
-      // Check if email already exists
-      const existingUsers = await axios.get(
-        `${API_URL}?email=${userData.userEmail}`
-      );
-      console.log("users", existingUsers);
-      // if (existingUsers.data.length > 0) {
-      //   return rejectWithValue("Email already in use");
-      // }
-
       const response = await axios.post(API_URL, userData);
-      // Returning a fake token and user info after registration
       return { token: "fake-jwt-token", user: response.data };
     } catch (error: any) {
       return rejectWithValue(
@@ -47,7 +36,6 @@ export const register = createAsyncThunk(
   }
 );
 
-// Login user
 export const login = createAsyncThunk(
   "auth/login",
   async (
@@ -55,15 +43,27 @@ export const login = createAsyncThunk(
     { rejectWithValue }
   ) => {
     try {
-      const response = await axios.get(
-        `${API_URL}?email=${credentials.email}&password=${credentials.password}`
-      );
-      if (response.data.length > 0) {
-        return { token: "fake-jwt-token", user: response.data[0] };
-      } else {
+      // Fetch user by email
+      const response = await axios.get(`${API_URL}?email=${credentials.email}`);
+
+      if (response.data.length === 0) {
+        console.error("No user found with this email");
         return rejectWithValue("Invalid credentials");
       }
+
+      const user = response.data.find(
+        (user: { userEmail: string }) => user.userEmail === credentials.email
+      );
+
+      // Check if password matches
+      if (user.userPassword !== credentials.password) {
+        console.error("Password does not match");
+        return rejectWithValue("Invalid credentials");
+      }
+
+      return { token: "fake-jwt-token", user };
     } catch (error: any) {
+      console.error("Login failed:", error);
       return rejectWithValue(
         error.response?.data?.message || error.message || "Login failed"
       );
